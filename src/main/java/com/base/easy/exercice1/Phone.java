@@ -1,4 +1,4 @@
-package com.exercice1;
+package com.base.easy.exercice1;
 
 public class Phone {
 

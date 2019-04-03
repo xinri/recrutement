@@ -1,4 +1,4 @@
-package com.exercice2;
+package com.base.easy.exercice2;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

@@ -1,4 +1,4 @@
-package com.exercice2;
+package com.base.easy.exercice2;
 
 public class Account {
 
