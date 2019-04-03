@@ -78,4 +78,14 @@ efficace sans avoir trop de répétition.
 
 # Test avec Spring mvc
 
-A faire plus tard...
+## normal à difficile
+
+### Shoes shop
+
+Pas de tests unitaires et il y a des erreurs dans le code.
+Au candidat de voir tous les problèmes et de les corriger si possible
+
+Le but est de compléter le code pour faire un GET (Param ou Path ? ne pas se tromper ;))
+avec 4 attributs caractéristiques de la chaussure.
+
+on peut vérifier directement sur le navigateur après avoir lancer le spring boot si le controller est bien fait
