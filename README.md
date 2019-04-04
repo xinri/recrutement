@@ -75,6 +75,17 @@ Le code est très mal fait avec beaucoup de répétition. Il faut laisser le can
 faire le refactoring et voir s'il trouvera la logique afin de rendre le code plus
 efficace sans avoir trop de répétition.
 
+## Craftmanship
+
+## S single responsability
+
+Voir si le candidat va penser à séparer les responsabilité et donner
+le pourquoi de tout cela.
+
+## O Open/Close
+
+Bird peut voler mais pas tous les oiseaux (comme l'autruche) ne peuvent.
+
 
 # Test avec Spring mvc
 

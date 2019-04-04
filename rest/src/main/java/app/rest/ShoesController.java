@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
-import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 // Damn !!! no unit tests done, perhaps it should be good to do the unit tests ?
@@ -14,7 +14,7 @@ public class ShoesController {
   private ShoesShop shoesShop = new ShoesShop();
 
 
-  @GetMapping("/shoes")
+  @PostMapping("/shoes")
   public String getShoes() {
     return "To Implement the rest call for getting the shoes by criteria";
   }
