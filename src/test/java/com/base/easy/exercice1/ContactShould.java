@@ -8,13 +8,13 @@ import org.junit.Test;
 public class ContactShould {
 
   @Test
-  public void return_true_when_the_phone_finding_the_existing_number_06060606() {
+  public void return_true_when_the_phone_finding_the_same_added_phone() {
     // given
     Contact contact = new Contact();
     contact.add(new Phone("Alexandra", "06060606"));
 
     // when
-    boolean result = contact.findPhone(new Phone("Alexandra"));
+    boolean result = contact.findPhone(new Phone("Alexandra", "06060606"));
 
     // then
     assertThat(result).isTrue();
@@ -28,7 +28,7 @@ public class ContactShould {
     contact.add(new Phone("John", "07070707"));
 
     // when
-    String result = contact.findNumberOf(new Phone("Alexandra"));
+    String result = contact.findNumberOf(new Phone("Alexandra", "06060606"));
 
     // then
     assertThat(result).isEqualTo("06060606");
