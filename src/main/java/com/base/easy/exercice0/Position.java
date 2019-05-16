@@ -1,7 +1,5 @@
 package com.base.easy.exercice0;
 
-import java.util.Objects;
-
 public class Position {
 
   private final int x;

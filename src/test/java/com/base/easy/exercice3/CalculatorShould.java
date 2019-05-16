@@ -12,7 +12,7 @@ public class CalculatorShould {
     Calculator calculator = new Calculator();
 
     // when
-    double result = calculator.substract(0.3d, 0.2d);
+    double result = calculator.subtract(0.3d, 0.2d);
 
     // then
     assertThat(result).isEqualTo(0.1d);
