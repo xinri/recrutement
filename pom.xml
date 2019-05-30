@@ -16,6 +16,7 @@
     <module>memory</module>
     <module>refactoring</module>
     <module>cucumber</module>
+    <module>concurrence</module>
   </modules>
 
   <properties>
