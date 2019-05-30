@@ -10,7 +10,9 @@ public class PositionHistoryShould {
   public void return_true_when_position_is_already_store() {
     // given
     PositionHistory positionHistory = new PositionHistory();
+    positionHistory.add(new Position(140, 140));
     positionHistory.add(new Position(150, 150));
+    positionHistory.add(new Position(160, 160));
 
     // when
     boolean result = positionHistory.isInThePath(new Position(150, 150));

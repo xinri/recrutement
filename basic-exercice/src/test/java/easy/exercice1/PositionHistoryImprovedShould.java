@@ -10,7 +10,9 @@ public class PositionHistoryImprovedShould {
   public void return_true_when_position_is_already_store() {
     // given
     PositionHistoryImproved positionHistoryImproved = new PositionHistoryImproved();
+    positionHistoryImproved.add(new PositionImproved(140, 140));
     positionHistoryImproved.add(new PositionImproved(150, 150));
+    positionHistoryImproved.add(new PositionImproved(160, 160));
 
     // when
     boolean result = positionHistoryImproved.isInThePath(new PositionImproved(150, 150));
