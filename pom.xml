@@ -17,6 +17,7 @@
     <module>refactoring</module>
     <module>cucumber</module>
     <module>concurrence</module>
+    <module>java8</module>
   </modules>
 
   <properties>
