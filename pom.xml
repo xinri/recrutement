@@ -12,7 +12,7 @@
   <modules>
     <module>rest</module>
     <module>craft</module>
-    <module>easy</module>
+    <module>basic-exercice</module>
     <module>memory</module>
     <module>refactoring</module>
     <module>cucumber</module>
