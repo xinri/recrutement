@@ -9,8 +9,10 @@ public class MyTask {
   private B b;
 }
 
+@Service
 public class A implements C {
 }
 
+@Service
 public class B implements C {
 }
